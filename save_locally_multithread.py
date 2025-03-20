@@ -6,7 +6,6 @@ import boto3
 load_dotenv()
 
 # Configuration
-# BUCKET_NAMES = ['10-20-50', '10-20-50-100', '10-20-50-100-200-500', '10-200-500-20250219t070855z-001', '10-50-100-coin', '10-50-200-500', '100-200-coin', '20-200', '20-coin', '200-20-coin', '50-500-coin',  'coin-100', 'coin-coin-coin-coin', 'security-data-five', 'security-data-five-a', 'security-data-four', 'security-data-four-a', 'security-data-one', 'security-data-one-a', 'security-data-one-b', 'security-data-seven', 'security-data-seven-a', 'security-data-six', 'security-data-six-a', 'security-data-three', 'security-data-three-a', 'security-data-three-b', 'security-data-three-c', 'security-data-two', 'security-data-two-a', 'security-data-two-b', 'security-data-two-c', 'security-data-two-d']
 BUCKET_NAMES = ['final-security-data']
 print(len(BUCKET_NAMES))
 LOCAL_DOWNLOAD_BASE_PATH = "./data"  # Base directory for downloads
